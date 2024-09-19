@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ecommerce
+
+# 数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommerce
+    username: root
+    password: mimo#coco
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
